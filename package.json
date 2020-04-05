@@ -1,6 +1,6 @@
 {
   "name": "@blandland/react-gun",
-  "version": "1.0.0",
+  "version": "0.0.12",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,5 +12,9 @@
   "dependencies": {
     "gun": "^0.2020.301",
     "zustand": "^2.2.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.19.0"
   }
 }
