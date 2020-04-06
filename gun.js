@@ -3,12 +3,17 @@ import Sea from "gun/sea"
 import unset from "gun/lib/unset"
 import path from "gun/lib/path"
 
-let gun = Gun()
+let gun 
 
-const setupGun = (serverList) => {
-    gun = Gun(serverList)
+const setupGun = ( serverList ) => {
+	gun = Gun( serverList )
+	return gun
+}
+
+const getGun = () => {
+    return gun 
 }
 
 window.___IMPLICIT_IMPORTS = [unset, path, Sea]
 
-export { gun, setupGun, Gun }
+export { getGun, setupGun, Gun }

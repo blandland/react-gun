@@ -1,6 +1,6 @@
 {
   "name": "@blandland/react-gun",
-  "version": "0.0.12",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "author": "p.uri.tanner",
   "license": "ISC",
   "dependencies": {
-    "gun": "^0.2020.301",
+    "gun": "^0.2020.401",
     "zustand": "^2.2.3"
   },
   "devDependencies": {

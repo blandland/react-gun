@@ -1,9 +1,11 @@
 import create from "zustand"
-import {gun} from "./gun"
+import {getGun} from "./gun"
 
 const stores = new Map()
 
 const memoStore = ( key ) => {
+  let gun = getGun()
+  
   let store = stores.get( key )
   if ( store ) return store
   const entry = gun.get( key )
